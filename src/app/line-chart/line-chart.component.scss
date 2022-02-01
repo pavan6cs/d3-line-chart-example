@@ -1,0 +1,40 @@
+/* 13. Basic Styling with CSS */
+
+/* Style the lines by removing the fill and applying a stroke */
+::ng-deep .line {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+}
+
+::ng-deep .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+::ng-deep .dot {
+
+  stroke: black;
+}
+::ng-deep .refline {
+    fill: none;
+    stroke: #2F4F4F;
+    stroke-width: 1.0px;
+    stroke-dasharray: 5, 15;
+  }
+
+::ng-deep .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+.chart {
+  width: 540px;
+  height: 330px;
+
+//   width: 100%;
+//   height: 100%;
+
+  margin: 20px 25px;
+}
